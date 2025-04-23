@@ -52,9 +52,9 @@ const Index = () => {
             <div className="md:w-1/2 mt-10 md:mt-0">
               <div className="bg-white rounded-lg shadow-lg p-4">
                 <img 
-                  src="/placeholder.svg" 
+                  src={`https://images.unsplash.com/photo-1581091226825-a6a2a5aee158`}
                   alt="Student learning" 
-                  className="w-full rounded"
+                  className="w-full rounded-lg object-cover aspect-video"
                 />
               </div>
             </div>

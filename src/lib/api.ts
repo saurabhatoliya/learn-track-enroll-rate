@@ -1,4 +1,3 @@
-
 import { toast } from "@/components/ui/sonner";
 
 // Types
@@ -35,7 +34,7 @@ const mockCourses: Course[] = [
     rating: 70,
     description: 'Learn the basics of HTML, CSS, and JavaScript to build modern web applications.',
     instructor: 'Dr. Sarah Johnson',
-    imageUrl: '/placeholder.svg'
+    imageUrl: 'photo-1488590528505-98d2b5aba04b'
   },
   {
     id: '2',
@@ -44,7 +43,7 @@ const mockCourses: Course[] = [
     rating: 70,
     description: 'Explore complex data structures and algorithms for efficient problem-solving.',
     instructor: 'Prof. Michael Chen',
-    imageUrl: '/placeholder.svg'
+    imageUrl: 'photo-1649972904349-6e44c42644a7'
   },
   {
     id: '3',
@@ -53,7 +52,7 @@ const mockCourses: Course[] = [
     rating: 70,
     description: 'Create cross-platform mobile applications using React Native.',
     instructor: 'Jane Smith',
-    imageUrl: '/placeholder.svg'
+    imageUrl: 'photo-1581091226825-a6a2a5aee158'
   },
   {
     id: '4',
@@ -62,16 +61,16 @@ const mockCourses: Course[] = [
     rating: 70,
     description: 'Introduction to machine learning concepts, algorithms, and applications.',
     instructor: 'Dr. Alex Rodriguez',
-    imageUrl: '/placeholder.svg'
+    imageUrl: 'photo-1649972904349-6e44c42644a7'
   },
   {
     id: '5',
     name: 'Database Systems',
     created_at: '2024-02-25',
-    rating: 70, 
+    rating: 70,  
     description: 'Learn SQL and database design principles for building robust applications.',
     instructor: 'Prof. Lisa Wong',
-    imageUrl: '/placeholder.svg'
+    imageUrl: 'photo-1488590528505-98d2b5aba04b'
   },
 ];
 

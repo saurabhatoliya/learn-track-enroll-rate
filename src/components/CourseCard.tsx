@@ -1,9 +1,9 @@
-
 import React from 'react';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Course } from '@/lib/api';
 import { useNavigate } from 'react-router-dom';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 interface CourseCardProps {
   course: Course;
@@ -28,13 +28,13 @@ const CourseCard: React.FC<CourseCardProps> = ({
 
   return (
     <Card className="overflow-hidden transition-shadow duration-300 hover:shadow-md">
-      <div className="h-40 bg-gray-200">
+      <AspectRatio ratio={16/9}>
         <img 
-          src={course.imageUrl} 
+          src={`https://images.unsplash.com/${course.imageUrl}`}
           alt={course.name} 
-          className="h-full w-full object-cover opacity-70"
+          className="h-full w-full object-cover"
         />
-      </div>
+      </AspectRatio>
       <CardHeader>
         <CardTitle className="text-lg font-bold">{course.name}</CardTitle>
         <div className="text-sm text-gray-500">Instructor: {course.instructor}</div>
